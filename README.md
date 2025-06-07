@@ -3,6 +3,8 @@ By Ifeanyi Omeata
 
 ## DJANGO
 
+### [Django Course 1](https://www.udemy.com/course/python-django-the-practical-guide/)
+
 <details>
   <summary>Django Basics</summary>
 
