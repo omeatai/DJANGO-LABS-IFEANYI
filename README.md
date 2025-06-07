@@ -8,7 +8,7 @@ By Ifeanyi Omeata
 
   ### Install Django
 
-  ```py
+  ```
   python -m pip install Django
   django-admin
   ```
@@ -39,7 +39,7 @@ By Ifeanyi Omeata
 
 
 <details>
-  <summary>Django Basics</summary>
+  <summary>Django </summary>
 
   ### Print String
 
