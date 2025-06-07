@@ -96,6 +96,22 @@ By Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Django - Set up Basic URL and View</summary>
+
+  ### Print String
+
+  ```py
+
+  ```
+
+  ### Print String
+
+  ```
+
+  ```
+
+</details>
 
 
 
