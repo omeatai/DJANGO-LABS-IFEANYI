@@ -63,7 +63,38 @@ By Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Django - Create Monthly Challenges Project </summary>
 
+  ### Create and activate Virtual Env
+
+  ```
+  python -m venv venv
+  source venv/bin/activate
+  ```
+
+  ### Install Django
+
+  ```
+  python -m pip install Django
+  ```
+
+  ### Create project
+
+  ```
+  django-admin startproject monthly_challenges_project .
+  ```
+
+  ### Create app
+
+  ```
+  python manage.py startapp challenges
+  ```
+
+  <img width="1450" alt="image" src="https://github.com/user-attachments/assets/ab3d6000-fe18-4b7d-9bd3-22fd2ad5a100" />
+
+
+</details>
 
 
 
