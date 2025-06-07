@@ -56,6 +56,9 @@ By Ifeanyi Omeata
   python manage.py runserver
   ```
 
+  <img width="1406" alt="image" src="https://github.com/user-attachments/assets/fff512c5-2c50-4087-95ca-429f591d5570" />
+  <img width="1453" alt="image" src="https://github.com/user-attachments/assets/e6eb4d82-19d7-4614-91c2-f6a0002035de" />
+
 </details>
 
 
