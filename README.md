@@ -1,6 +1,8 @@
 # DJANGO-LABS-IFEANYI
 By Ifeanyi Omeata
 
+## DJANGO
+
 <details>
   <summary>Django Basics</summary>
 
