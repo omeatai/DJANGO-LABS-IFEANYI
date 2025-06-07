@@ -6,19 +6,6 @@ By Ifeanyi Omeata
 <details>
   <summary>Django Basics</summary>
 
-  ### Install Django
-
-  ```
-  python -m pip install Django
-  django-admin
-  ```
-
-  ### Check Django Version
-
-  ```
-  python -m django --version
-  ```
-
   ### Create and activate Virtual Env
 
   ```
@@ -32,10 +19,35 @@ By Ifeanyi Omeata
   deactivate
   ```
 
+  ### Check Installed Packages
+
+  ```
+  pip list
+  ```
+
+  ### Install Django
+
+  ```
+  python -m pip install Django
+  django-admin
+  ```
+
+  ### Check Django Version
+
+  ```
+  python -m django --version
+  ```
+
   ### Create New Django Project
 
   ```
   django-admin startproject my_project .
+  ```
+
+  ### Run Django Project in dev Mode
+
+  ```
+  python manage.py runserver
   ```
 
 </details>
