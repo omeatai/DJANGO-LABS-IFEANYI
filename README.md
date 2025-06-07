@@ -6,21 +6,48 @@ By Ifeanyi Omeata
 <details>
   <summary>Django Basics</summary>
 
-  ### 1. Print String
+  ### Install Django
+
+  ```py
+  python -m pip install Django
+  django-admin
+  ```
+
+  ### Check Django Version
+
+  ```
+  python -m django --version
+  ```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details>
+  <summary>Django Basics</summary>
+
+  ### Print String
 
   ```py
 
   ```
 
-  ```
-
-  ```
-
-  ### 2. Use Comments
-
-  ```py
-
-  ```
+  ### Print String
 
   ```
 
