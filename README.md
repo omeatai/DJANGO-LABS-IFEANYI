@@ -19,6 +19,25 @@ By Ifeanyi Omeata
   python -m django --version
   ```
 
+  ### Create and activate Virtual Env
+
+  ```
+  python -m venv venv
+  source venv/bin/activate
+  ```
+
+  ### Dectivate Virtual Env
+
+  ```
+  deactivate
+  ```
+
+  ### Create New Django Project
+
+  ```
+  django-admin startproject my_project .
+  ```
+
 </details>
 
 
