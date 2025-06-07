@@ -44,6 +44,12 @@ By Ifeanyi Omeata
   django-admin startproject my_project .
   ```
 
+  ### Create New App
+
+  ```
+  python manage.py startapp first_app
+  ```
+
   ### Run Django Project in dev Mode
 
   ```
