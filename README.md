@@ -177,6 +177,28 @@ By Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Django Challenges Project - Set up Dynamic URLs and Views </summary>
+
+  ### Print String
+
+  ```py
+
+  ```
+
+  ### Print String
+
+  ```
+
+  ```
+
+</details>
+
+
+
+
+
+
 
 
 
@@ -192,7 +214,7 @@ By Ifeanyi Omeata
 
 
 <details>
-  <summary>Django Challenges Project - </summary>
+  <summary>Django Challenges Project - Set up </summary>
 
   ### Print String
 
