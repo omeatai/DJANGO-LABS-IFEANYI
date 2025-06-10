@@ -270,7 +270,22 @@ By Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Django Challenges Project - Set up Redirects </summary>
 
+  ### Print String
+
+  ```py
+
+  ```
+
+  ### Print String
+
+  ```
+
+  ```
+
+</details>
 
 
 
