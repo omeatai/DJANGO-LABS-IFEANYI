@@ -180,17 +180,93 @@ By Ifeanyi Omeata
 <details>
   <summary>Django Challenges Project - Set up Dynamic URLs and Views </summary>
 
-  ### Print String
+  ### Github/python/monthly_challenges/monthly_challenges_project/urls.py
 
   ```py
+  """
+  URL configuration for monthly_challenges_project project.
+  
+  The `urlpatterns` list routes URLs to views. For more information please see:
+      https://docs.djangoproject.com/en/5.2/topics/http/urls/
+  Examples:
+  Function views
+      1. Add an import:  from my_app import views
+      2. Add a URL to urlpatterns:  path('', views.home, name='home')
+  Class-based views
+      1. Add an import:  from other_app.views import Home
+      2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
+  Including another URLconf
+      1. Import the include() function: from django.urls import include, path
+      2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+  """
+  from django.contrib import admin
+  from django.urls import path, include
+  
+  urlpatterns = [
+      path('admin/', admin.site.urls),
+      path('challenges/', include('challenges.urls')),
+  ]
 
   ```
 
-  ### Print String
+  ### Github/python/monthly_challenges/challenges/urls.py
+
+  ```
+  from django.urls import path
+  
+  from . import views
+  
+  urlpatterns = [
+      path('', views.index, name='index'),
+      path('<int:month>', views.month_challenge_by_number,
+           name='month-challenge-by-number'),
+      path('<str:month>', views.month_challenge, name='month-challenge'),
+  ]
 
   ```
 
+  ### Github/python/monthly_challenges/challenges/views.py
+
   ```
+  from django.shortcuts import render
+  from django.http import HttpResponse, HttpResponseNotFound
+  
+  # Create your views here.
+  
+  monthly_challenges = {
+      "january": "Eat no meat for the entire month!",
+      "february": "Walk for at least 20 minutes every day!",
+      "march": "Learn Django for at least 20 minutes every day!"
+  }
+  
+  
+  def index(request):
+      return HttpResponse("<h1>Welcome to the challenges app!</h1>")
+  
+  
+  def month_challenge_by_number(request, month):
+      if month > 12 or month < 1:
+          return HttpResponseNotFound("<h1>Invalid month!</h1>")
+      return HttpResponse(f"<h1>Challenge for Month {month}</h1>")
+  
+    
+  def month_challenge(request, month):
+      challenge_text = None
+      try:
+          challenge_text = monthly_challenges[month]
+      except:
+          if month in ["april", "may", "june", "july", "august", "september", "october", "november", "december"]:
+              challenge_text = f"Challenge for {month} is coming soon!"
+          else:
+              return HttpResponseNotFound("<h1>Invalid month!</h1>")
+      return HttpResponse(f"<h1>{challenge_text}</h1>")
+
+  ```
+
+  <img width="1415" alt="image" src="https://github.com/user-attachments/assets/f79d9a8a-a696-456b-a527-6aa479c825e0" />
+  <img width="1453" alt="image" src="https://github.com/user-attachments/assets/ebb9459b-4359-4776-95f4-4b81b016a0e6" />
+  <img width="1453" alt="image" src="https://github.com/user-attachments/assets/0d50135e-f409-429f-a7e3-4fc01ffdf419" />
+  <img width="1453" alt="image" src="https://github.com/user-attachments/assets/cd58d679-0af9-42b2-b3ba-ca69e22771ed" />
 
 </details>
 
