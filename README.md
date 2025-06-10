@@ -211,7 +211,7 @@ By Ifeanyi Omeata
 
   ### Github/python/monthly_challenges/challenges/urls.py
 
-  ```
+  ```py
   from django.urls import path
   
   from . import views
@@ -227,7 +227,7 @@ By Ifeanyi Omeata
 
   ### Github/python/monthly_challenges/challenges/views.py
 
-  ```
+  ```py
   from django.shortcuts import render
   from django.http import HttpResponse, HttpResponseNotFound
   
