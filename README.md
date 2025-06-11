@@ -476,6 +476,34 @@ By Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Django Challenges Project - Rendering Templates </summary>
+
+  ### Print String
+
+  ```py
+
+  ```
+
+  ### Print String
+
+  ```
+
+  ```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
