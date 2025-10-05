@@ -1,12 +1,8 @@
 # DJANGO-LABS-IFEANYI by Ifeanyi Omeata
 
-## #LABS
-
-### [1 - Python Django - The Practical Guide](https://github.com/omeatai/DJANGO-LABS-IFEANYI/blob/main/labs/1.md)
-
 ### DJANGO BASICS
 
-- [ ] [Python Django - The Practical Guide](https://www.udemy.com/course/python-django-the-practical-guide/)
+- [x] [Python Django - The Practical Guide](https://www.udemy.com/course/python-django-the-practical-guide/) | [Notes](https://github.com/omeatai/DJANGO-LABS-IFEANYI/blob/main/labs/1.md)
 - [ ] [Django for Python Developers](https://www.udemy.com/course/django-for-python-developers)
 - [ ] [Docker for Python Django Developers](https://www.udemy.com/course/docker-for-python-django-developers/)
 - [ ] [Django Rest Framework](https://www.udemy.com/course/djangorestframework/)
