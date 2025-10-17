@@ -14,3 +14,7 @@
 - [ ] [React and Django: A Practical Guide with Docker](https://www.udemy.com/course/react-django-admin/)
 - [ ] [React, Next.js and Django: A Rapid Guide - Advanced](https://www.udemy.com/course/react-django-advanced/)
 - [ ] [The Ultimate Authentication Course with Django and React](https://www.udemy.com/course/react-django-authentication)
+- [ ] [Django Rest Framework](https://www.udemy.com/course/djangorestframework/)
+- [ ] [Django for Python Developers](https://www.udemy.com/course/django-for-python-developers/)
+- [ ] [Docker for Python Django Developers](https://www.udemy.com/course/docker-for-python-django-developers/)
+- [ ] [AI with GitHub Copilot for Python & Django REST Developers](https://www.udemy.com/course/mastering-github-copilot-for-python-django-rest-developers/)
